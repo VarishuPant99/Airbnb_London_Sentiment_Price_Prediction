@@ -47,7 +47,7 @@ Methodology : Supervised Learning (Regression Analysis)
 Feature engineered variable: Avg_Sentiment_Score_Per_Listing using Score from sentiment analysis
 Experimented with different models and picked best. Performed Hyperparameter Tuning to get best set of parameters
 
-### Variables Used:
+#### Variables Used:
 Accommodates
 Avg_Sentiment_Score
 Neighbourhood
@@ -61,7 +61,7 @@ Reviews Per Month
 Availability 365
 
 
-### Model:
+#### Model:
 Random Forest Regressor
 Validation RMSE:
 249
