@@ -40,5 +40,32 @@ Performance of most reviewed listing dropped in 2020 probably due to Covid
 Highest Scored Listing-99241. Highest Scored Host- The Portobello Room
 Note- Only considered listings, hosts with at least 50 reviews for point 4.
 
+## Price Prediction Model
+
+Business Use Case : Predict price for a new listing based on variables in multiple datasets
+Methodology : Supervised Learning (Regression Analysis)
+Feature engineered variable: Avg_Sentiment_Score_Per_Listing using Score from sentiment analysis
+Experimented with different models and picked best. Performed Hyperparameter Tuning to get best set of parameters
+
+### Variables Used:
+Accommodates
+Avg_Sentiment_Score
+Neighbourhood
+Room Type
+Calculated Host Listings Count
+Host Identity Verified
+Host superhost
+Instant Bookable
+Minimum Nights
+Reviews Per Month
+Availability 365
+
+
+### Model:
+Random Forest Regressor
+Validation RMSE:
+249
+Train RMSE:
+159
 
 
